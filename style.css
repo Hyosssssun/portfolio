@@ -1,0 +1,180 @@
+    * {
+        margin: 0;
+        padding: 0;
+font-family: 'Voltaire', sans-serif;
+    }
+
+    @media (max-width: 75em) {
+        html {
+          font-size: 60%;
+        }
+      }
+
+    @media (max-width: 61.25em) {
+        html {
+            font-size: 58%;
+        }
+    }
+    
+    @media (max-width: 28.75em) {
+        html {
+            font-size: 55%;
+        }
+    }  
+
+    html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    }
+
+    body {
+        background-color: rgb(247, 236, 237);
+        color: rgb(76, 24, 128);
+    }
+
+
+/* header */
+    #navbar {
+        background-color: rgb(76, 24, 128);
+        display: block;
+        width: 100%;
+        align-items: center;
+        position: fixed;
+        padding: 2rem;
+    }
+
+    .navbar li a {
+        color: rgb(255, 255, 255);
+        /* background-color: rgba(76, 24, 128, 0.651); */
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 600;
+        padding: 2rem 3rem 2rem 3rem;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: row;
+        float: right;
+        list-style: none;
+        margin-right: 30px;
+    }
+
+/* welcome-section */
+    #welcome-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    h1,
+    h2 {
+        font-family: 'Tourney', cursive;
+font-family: 'Voltaire', sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    #welcome-section p {
+        font-size: 3rem;
+        color: rgb(186, 189, 45);
+        font-style: italic;
+    }
+
+    h2 {
+        font-size: 4.5rem;
+    }
+
+/* Projects */
+    #projects {
+        background-color: rgb(186, 189, 45);;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    #projects h2 {
+        border-bottom: solid 3px white;
+        padding: 10px;
+        margin-bottom: 3rem;
+        color: white;
+    }
+
+    .project-tile {
+        display: grid;
+        grid-template-columns: 3fr 3fr 2fr;
+        grid-gap: 40px;
+        padding: 20px;
+      }
+
+    .project-tile div {
+        background-color: white;
+        text-align: center;
+        padding: 0;
+        font-size: 30px;
+        box-shadow: 1px 1px 2px rgba(168, 137, 137, 0.5);
+        border-radius: 5px;
+    }
+
+    .project-tile a {
+        height: 400px;
+    }
+
+    .project-tile a img{
+        height: 400px;
+    }
+
+    .project-tile p {
+        background-color:rgb(76, 24, 128);
+        text-decoration: none;
+        padding: 10px;
+        color: rgb(255, 255, 255);
+    }
+
+    .coming-soon {
+        padding: 15px;
+        width: auto;
+        justify-content: center;
+        background-color:rgb(76, 24, 128);
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        height: 8rem;
+        border-radius: 5px;
+        margin: auto;
+    }
+
+/* contact */
+    .contact-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60vh;
+    }
+
+    .contact-section h2 {
+        font-size: 6rem;
+        padding-bottom: 20px;
+    }
+
+    .contact-details {
+        font-size: 3.5rem;
+        text-decoration: none;
+        padding: 20px;
+        color: inherit;
+        font-weight: 600;
+    }
