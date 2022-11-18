@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://hyosssssun.github.io/portfolio/"><b>Stopwatch</b></a></h1>
+<h1 align="center"><a href="https://hyosssssun.github.io/portfolio/"><b>Portfolio V1</b></a></h1>
 
 This is Hyosun's portfolio version1 built with HTML and CSS.
 
